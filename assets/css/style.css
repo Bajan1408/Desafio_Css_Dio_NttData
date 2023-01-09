@@ -1,13 +1,11 @@
 body {
     background-image: linear-gradient(180deg, rgba(5, 5, 5, 0.9) 50%, rgba(47, 16, 22, 10) 100%);
-	//background-color: #000000;
 }
 
 header {
     background-image: linear-gradient(180deg, rgba(5, 5, 5, 0.6) 0%, rgba(3, 34, 49, 0) 100%);
     display: flex;
     justify-content: center;
-    background;
 }
 
 .banner {
@@ -128,8 +126,8 @@ header {
 	border: 1px solid #33A8DB;
 	border-radius: 57px;
 	color: white;
-	width: 535px;
-	height: 51px;
+	width: 575px;
+	height: 61px;
 	margin: auto;
 	padding: 16px, 127px, 16px, 127px;
 	font-family: Raleway;
@@ -159,9 +157,81 @@ header {
 }
 
 #transform-world p {
-   
+    width: 244px;
+    height: 141px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+	text-transform: lowercase;
+    text-shadow: 3px 2px 0px #33A8DB;
 }
 
 #course-content .modules-list {
     margin: 24px 0;
+}
+
+#professional-challenges {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	border-bottom: 1px solid #33A8DB;
+}
+
+#professional-challenges h2 {
+	color: #33A8DB;
+    width: 792px;
+    height: 76px;  
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 32px;
+	text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.19em;
+	margin: 80px 60px 30px 60px;
+
+}
+
+#professional-challenges p {
+	color: #FFFFFF;
+	width: 792px;
+	height: 76px;
+	text-align: center;
+	font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+	margin-top: 40px;
+	margin-bottom: 90px;
+}
+
+.dio-logo {
+	box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    border-top: 1px solid #33A8DB;
+}
+
+footer p {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+
+footer > p > a {
+	color: #33A8DB;
 }
